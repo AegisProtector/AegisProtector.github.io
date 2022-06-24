@@ -53,6 +53,12 @@ h2.h2.section-title {
     color: #fff;
 }
 
+.construction {
+    color: #fff;
+    font-size: 1.5em;
+    text-align: center;
+}
+
 /* -----------------------------------*\
   #RESET
 \*----------------------------------- */
@@ -137,10 +143,11 @@ body {
 
 .section-text,
 .features .card-text {
-    color: color;
+    color: #d9d9d9;
     font-size: var(--fs-4);
     line-height: 1.8;
     margin-bottom: 15px;
+    text-shadow: 0 -5;
 }
 
 .btn {
@@ -225,6 +232,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #fff;
+    border-radius: 25px;
 }
 
 .logo img {
@@ -289,6 +298,10 @@ body {
 \*----------------------------------- */
 .hero {
     background: #ffe4ec;
+    background-image: url("/assets/images/Security-Background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     padding-top: 130px;
 }
 
@@ -1137,4 +1150,8 @@ body {
     .newsletter-content {
         width: 55%;
     }
+}
+
+p .section.text {
+    text-shadow: 0 5 #000000;
 }

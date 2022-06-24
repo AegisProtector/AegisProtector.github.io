@@ -297,7 +297,6 @@ body {
   #HERO
 \*----------------------------------- */
 .hero {
-    background: #ffe4ec;
     background-image: url("/assets/images/Security-Background.png");
     background-size: cover;
     background-repeat: no-repeat;
